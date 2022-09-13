@@ -1,0 +1,22 @@
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+}
+
+.warning {
+    position: fixed;
+    margin: auto;
+}
+
+.home .no-item-found {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.login-comp {
+    width: 70vw;
+}

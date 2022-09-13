@@ -1,0 +1,16 @@
+.grid-item-1>.cart-item-link {
+    text-decoration: none;
+}
+
+.cart-item-link>img {
+    width: 10rem;
+    height: auto;
+}
+
+.grid-item-1>button {
+    border: none;
+}
+
+.grid-item-1>button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.orders-comp {
+    width: 100%;
+}
+
+.empty-orders-section {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 5rem;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-to-home {
+    text-decoration: none;
+}

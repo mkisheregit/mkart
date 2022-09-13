@@ -1,0 +1,38 @@
+.ordered-item {
+    width: 100%;
+}
+
+.order-id {
+    text-align: center;
+}
+
+.order-brief-desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.order-brief-desc>div {
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.order-items-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.single-item {
+    padding: 1rem;
+    width: 10rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.ordered-item-pic {
+    width: 5rem;
+    height: 6rem;
+    padding: 0 auto;
+}

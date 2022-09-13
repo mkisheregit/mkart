@@ -1,0 +1,45 @@
+.cart {
+    text-align: center;
+}
+
+.description-header,
+.cart-item-details {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 30% auto auto auto;
+    align-items: center;
+    height: max-content;
+}
+
+.link-to-home {
+    text-decoration: none;
+}
+
+.check-out>button {
+    width: 20%;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+}
+
+.subtotal {
+    font-size: 1.5rem;
+}
+
+.empty-cart>button {
+    width: 10%;
+    margin: 8rem auto 2rem;
+    font-size: 1rem;
+    padding: 0.3rem;
+}
+
+.no-item-in-cart {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 5rem;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

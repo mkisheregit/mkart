@@ -1,0 +1,36 @@
+.productTemp {
+    padding: 0.6rem;
+    width: 15rem;
+    height: 24rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin: 1rem;
+}
+
+.productTemp img {
+    width: 13rem;
+    height: 13rem;
+    margin: auto;
+}
+
+.go-to-cart {
+    text-decoration: none;
+    padding: 0;
+}
+
+.go-to-cart button {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.3rem;
+    width: 100%;
+    border: none;
+    background-color: bisque;
+}
+
+.add-to-cart-button {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    padding: 0.3rem;
+    background-color: rgba(0, 0, 255, 0.3);
+}

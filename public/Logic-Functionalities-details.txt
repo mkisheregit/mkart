@@ -1,0 +1,30 @@
+----------FEATURES----------
+1. LOGIN & SIGNUP
+2. ADD ITEM TO CART
+3. SEARCH --- Here you can type category name and it will show all items in that category.
+4. SEE ORDERS' HISTORY
+5. REMOVE INDIVIDUAL ELEMENT FROM CART OR REMOVE ALL ELEMENTS FROM CART.
+6. SEE LOGGED IN USER DETAILS
+7. CAN'T SEE YOUR ORDERS, CART WITHOUT LOGGING IN.
+8. CANT'T ADD ITEM TO CART WITHOUT LOGGING IN.
+9. VIEW INDIVIDUAL ITEM DETAILS BY CLICKING ON IT.
+
+----------LOGIC----------
+  -- (How I created) --
+
+1. USED CONTEXT TO FETCH THE ECOMMERCE DATA.
+   IN CONTEXT,
+    data --> array, that is ecommerce api data
+    cart --> array of items
+    orders --> array (orders' history)
+    and functions to remover items from cart and more.
+
+2. USED LOCALSTORAGE KEYS TO STORE USER DATA  i.e.
+    'subscribers' --> array of object that stores all the user's infol
+    'loggedInEmail' --> email of logged in user.
+
+3. USED SEPARATE CONTEXT TO STORE (BOOLEAN) WHETHER USER IS LOGGED IN OR NOT.
+-------------------------------------------------------------------------------
+Folder/Component name represents work of that component
+
+

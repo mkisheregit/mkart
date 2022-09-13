@@ -1,0 +1,40 @@
+.signup-component {
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    margin: auto;
+    padding: 3rem;
+    border: 1px solid black;
+    font-size: 1rem;
+    background-color: rgba(255, 248, 220, 0.93);
+}
+
+.signup-component form {
+    width: 40vw;
+}
+
+.signup-component .input-field-container {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}
+
+.signup-component .input-field-container>input {
+    box-sizing: border-box;
+    margin: 1rem auto 1.5rem;
+    padding: 0.3rem;
+    width: 100%;
+}
+
+.signup-component button {
+    width: 70%;
+    padding: 0.3rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 1rem;
+}
+
+.signup-component button:hover {
+    cursor: pointer;
+}
